@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+* {
+    font-family: "Quicksand", sans-serif;
+    font-size: x-large;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 1100px;
+    background-size: cover;
+    background-image: url(https://images4.alphacoders.com/653/653613.jpg);
+}
+
+.bestmovie {
+    display: flex;
+    flex-direction: column;
+}
+.bestmovie h2 {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.bestmovie .list-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: initial;
+}
+.bestmovie .card {
+    text-align: center;
+}
+.media img {
+    width: 20%;
+}
+
+.newmovie {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    background-color: rgb(158, 216, 24);
+}
+.newmovie h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+.newmovie .list-cards {
+    display: flex;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: initial;
+}
+
+.main-footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.footer-bot {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
